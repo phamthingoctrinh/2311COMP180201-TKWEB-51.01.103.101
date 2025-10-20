@@ -1,0 +1,77 @@
+.chu{
+    color: hsla(0, 38%, 83%, 0.986);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.menu{
+        height: 100px;
+        width: auto;
+        display: inline-block;
+        background-color: rgba(166, 158, 158, 0.789);
+       
+    }
+    .menu li{
+        list-style-type: none;
+        float: left;   
+    }
+    .menu li a{
+        text-decoration: none;
+        color:rgb(205, 175, 196);
+        padding: 0 30px;
+        line-height: 100px;
+        display: block;
+        font-size: 25px;
+    }
+    .menu li a:hover{
+        background-color: rgba(107, 87, 87, 0.723);
+        color: rgba(189, 172, 172, 0.788);
+        border-bottom: 2px solid rgb(156, 119, 119);
+    }   
+    .chu2{
+    color: hsla(0, 72%, 93%, 0.727);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    }
+.card{
+        box-shadow: 0 0 5px rgb(171, 131, 131);
+        border-radius: 10px;
+        padding: 5px;
+        display: inline-block;
+        margin: 10px;
+        position: relative;
+        width: 400px;
+}
+.card-deck{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card-body{
+        padding: 5px;
+        bottom: 0px;
+        background-color: rgba(192, 173, 173, 0.799);
+        border-radius: 0 0 10px 10px;
+        display: inline-block;
+}
+.tensp{
+    color: rgba(67, 40, 40, 0.816);
+    font-size: 20px;
+    font-weight: bold;
+}
+.noidung{
+    color: rgba(225, 185, 185, 0.837);
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgba(196, 170, 170, 0.616);
+    padding: 10px;
+    background-color: rgba(99, 82, 82, 0.853);
+    border-radius: 10px;
+}
+audio {
+        display: none;
+    }
