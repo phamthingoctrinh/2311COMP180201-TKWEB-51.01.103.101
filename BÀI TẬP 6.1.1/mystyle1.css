@@ -1,0 +1,98 @@
+#rua{
+    left:100px;
+    top:500px;
+    position:absolute;
+    animation-name:rua;
+    animation-duration:50s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-play-state:running;
+}
+@keyframes rua{
+    0%{left:100px;top:500px;}
+    10%{left:300px;top:400px;}
+    20%{left:500px;top:300px;}
+    30%{left:700px;top:200px}
+    40%{left:900px;top:100px;}
+    50%{left:1000px;top:50px;}
+    60%{left:800px;top:100px;}
+    70%{left:600px;top:200px}
+    80%{left:500px;top:300px;}
+    90%{left:300px;top:400px}
+    100%{left:100px;top:500px; transform: scaleX(-1);}
+}
+#nguoi{
+    left:100px;
+    top:400px;
+    position:absolute;
+    animation-name:nguoi;
+    animation-duration:30s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-play-state:running;
+}
+@keyframes nguoi{
+    0%{left:100px;top:400px;}
+    20%{left:300px;top:400px;}
+    40%{left:500px;top:300px;}
+    50%{left:600px;top:50px;}
+    60%{left:600px;top:100px;}
+    80%{left:500px;top:200px;}
+    100%{left:100px;top:400px; transform: scaleX(-1);}
+}
+#fish{
+    left:100px;
+    top:400px;
+    position:absolute;
+    animation-name:fish;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-play-state:running;
+}
+@keyframes fish{
+    0%{left:100px;top:400px;}
+    20%{left:500px;top:400px;}
+    40%{left:700px;top:300px;}
+    50%{left:1000px;top:50px;}
+    60%{left:700px;top:100px;}
+    80%{left:500px;top:200px;}
+    100%{left:100px;top:400px; transform: scaleX(-1);}
+}
+#shark{
+    left:100px;
+    top:400px;
+    position:absolute;
+    animation-name:shark;
+    animation-duration:10s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-play-state:running;
+}
+@keyframes shark{
+    0%{left:100px;top:400px;}
+    20%{left:300px;top:400px;}
+    40%{left:500px;top:300px;}
+    50%{left:600px;top:50px;}
+    60%{left:600px;top:100px;}
+    80%{left:500px;top:200px;}
+    100%{left:100px;top:400px; transform: scaleX(-1);}
+}
+#shadow{
+    top:650px;
+    position:absolute;
+    animation-name:shadow;
+    animation-duration:15s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    animation-play-state:running;
+}
+@keyframes shadow{
+    0%{left:100px;}
+    20%{left:500px;top:640px}
+    40%{left:700px;top:600px}
+    50%{left:1000px;top:550px}
+    60%{left:700px;top:600px}
+    80%{left:500px;top:640px}
+    100%{left:100px; transform: scaleX(-1);}
+}
